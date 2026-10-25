@@ -8,69 +8,66 @@
     <title>Projeto Acqua | Acompanhamento da obra</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <h1 class="visually-hidden">Projeto Acqua</h1>
 
-      <section class="lancamento">
-        <h2 class="visually-hidden">Contador do lançamento do projeto</h2>
-        <div class="contador">
-        <div>
-        <p>45</p>
-        <p>dias</p>
+        <!-- Topo da página: imagem de lançamento e formulário -->
+        <div class="topo-principal">
+            <section class="lancamento">
+                <h2 class="visually-hidden">Contador do lançamento do projeto</h2>
+                <div class="contador">
+                    <div>
+                        <p>45</p>
+                        <p>dias</p>
+                    </div>
+                    <div>
+                        <p>10</p>
+                        <p>horas</p>
+                    </div>
+                    <div>
+                        <p>24</p>
+                        <p>minutos</p>
+                    </div>
+                    <div>
+                        <p>50</p>
+                        <p>segundos</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="novidades">
+                <h2>Prédio Acqua</h2>
+                <p>Receba novidades sobre nosso lançamento.</p>
+                <p>Morar contemporâneo para pessoas com estilo de vida dinâmico e que buscam praticidade no seu dia a dia. Lazer, esporte, trabalho e contato com a natureza em um só lugar.</p>
+                <form>
+                    <label class="visually-hidden" for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                    <button type="submit">Quero saber mais</button>
+                </form>
+            </section>
         </div>
 
-        <div>
-        <p>10</p>
-        <p>horas</p>
-        </div>
-
-        <div>
-        <p>24</p>
-        <p>minutos</p>
-        </div>
-
-        <div>
-        <p>50</p>
-        <p>segundos</p>
-        </div>
-
-        </div>
-      </section>
-
-
-      <section class="novidades">
-        <h2>Prédio Acqua</h2>
-        <p>Receba novidades sobre nosso lançamento.</p>
-        <p>Morar contemporâneo para pessoas com estilo de vida dinâmico e que buscam praticidade no seu dia a dia. Lazer, esporte, trabalho e contato com a natureza em um só lugar.</p>
-        <form>
-            <label class="visually-hidden" for="email">E-mail</label>
-            <input type="email" name="email">
-            <button type="submit">Quero saber mais</button>
-        </form>
-      </section>
-
-
-      <section>
-        <h2>Andamento do Projeto</h2>
-        <p>Veja como está o andamento da construção.</p>
-        <ul>
-            <li><img src="assets/predio1.png" alt="Prédio Acqua"></li>
-            <li><img src="assets/predio2.png" alt="Prédio Acqua"></li>
-            <li><img src="assets/predio3.png" alt="Prédio Acqua"></li>
-            <li><img src="assets/predio4.png" alt="Prédio Acqua"></li>
-            <li><img src="assets/terreno5.png" alt="Prédio Acqua"></li>
-            <li><img src="assets/estrutura6.png" alt="Prédio Acqua"></li>
-        </ul>
-      </section>
-
-
+        <!-- Seção de fotos da obra -->
+        <section class="andamento">
+            <div class="container">
+                <h2>Andamento do Projeto</h2>
+                <p>Veja como está o andamento da construção.</p>
+                <ul>
+                    <li><img src="assets/predio1.png" alt="Prédio Acqua - Andamento da obra 1"></li>
+                    <li><img src="assets/predio2.png" alt="Prédio Acqua - Andamento da obra 2"></li>
+                    <li><img src="assets/predio3.png" alt="Prédio Acqua - Andamento da obra 3"></li>
+                    <li><img src="assets/predio4.png" alt="Prédio Acqua - Andamento da obra 4"></li>
+                    <li><img src="assets/terreno5.png" alt="Prédio Acqua - Terreno do projeto"></li>
+                    <li><img src="assets/estrutura6.png" alt="Prédio Acqua - Estrutura em construção"></li>
+                </ul>
+            </div>
+        </section>
     </main>
 </body>
 </html>
